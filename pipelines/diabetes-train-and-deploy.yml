@@ -15,6 +15,11 @@ pool:
   vmImage: 'Ubuntu-18.04'
 
 steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.7'
+    addToPath: true
+    architecture: 'x64'
 - task: AzureCLI@2
   displayName: 'Install AML CLI'
   inputs:
