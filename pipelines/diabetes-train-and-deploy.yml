@@ -17,7 +17,7 @@ pool:
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.7'
+    versionSpec: '3.6' #dropping down version
     addToPath: true
     architecture: 'x64'
 - task: AzureCLI@2
