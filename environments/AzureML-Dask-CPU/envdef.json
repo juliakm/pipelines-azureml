@@ -41,7 +41,7 @@
     },
     "docker": {
         "enabled": true,
-        "baseImage": "mcr.microsoft.com/azureml/base:intelmpi2018.3-ubuntu16.04",
+        "baseImage": "mcr.microsoft.com/azureml/sklearn-0.24.1-ubuntu18.04-py37-cpu-inference",
         "baseDockerfile": null,
         "sharedVolumes": true,
         "shmSize": null,
